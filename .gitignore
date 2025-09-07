@@ -1,0 +1,44 @@
+# Arquivos compilados Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ambiente virtual
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+
+# Modelos e cache do Hugging Face
+*.bin
+*.h5
+*.ckpt
+*.pt
+*.pth
+.cache/
+huggingface/
+transformers_cache/
+*.lock
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de dados
+data/
+datasets/
+output/
+results/
+*.sqlite3*

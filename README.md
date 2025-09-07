@@ -12,3 +12,5 @@
     - ChatterBot: https://docs.chatterbot.us/
     - spaCy: https://spacy.io/
     - Hugging Face: https://huggingface.co/
+
+- Transformers: https://arxiv.org/abs/1706.03762v7

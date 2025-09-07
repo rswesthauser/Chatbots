@@ -1,0 +1,9 @@
+# ChatterBot
+git+https://github.com/gunthercox/ChatterBot.git
+sqlalchemy<2.1
+pytz
+spacy>=3.0.0
+
+# Corpus português
+chatterbot-corpus==1.2.0
+PyYAML==3.13

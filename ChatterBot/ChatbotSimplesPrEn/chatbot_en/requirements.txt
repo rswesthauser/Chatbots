@@ -1,0 +1,13 @@
+# ChatterBot
+git+https://github.com/gunthercox/ChatterBot.git
+sqlalchemy>=2.0,<2.1
+pytz
+spacy>=3.8,<3.9
+numpy==1.25.2
+setuptools>=65.0.0
+wheel>=0.38.0
+
+# Datasets e NLP inglês
+datasets==2.13.1
+pyarrow==11.0.0
+PyYAML>=5.1

@@ -1,0 +1,11 @@
+
+git+https://github.com/gunthercox/ChatterBot.git
+chatterbot-corpus==1.2.0
+sqlalchemy<2.1
+pytz
+spacy>=3.0.0
+datasets==2.13.1
+pyarrow==11.0.0
+numpy==1.25.2
+setuptools>=65.0.0
+wheel>=0.38.0

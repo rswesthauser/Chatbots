@@ -28,9 +28,9 @@ while True:
         max_length=1100, #Tamanho máximo da sequência de texto gerada, incluindo tokens de entrada. Um dos motivos pela qual é importante limitar o histórico
         pad_token_id=tokenizer.eos_token_id, #O id do token usado para indicar o fim da sequência, seria o mesmo que o ; no C, indicando o fimd a linha.
         do_sample=True, #Com true gera um texto de forma mais aleatória e variada, com false irá utilizar uma estratégia gulosa, sempre escolhendfo a maior probabilidade.
-        top_k=80, #Limita o úmero de tokens candidatos para gerar cada palavra. Nesse caso o modelo iá gerar a prõxima palavra com base em 80 tokens.
+        top_k=80, #Limita o número de tokens candidatos para gerar cada palavra. Nesse caso o modelo irá gerar a prõxima palavra com base em 80 tokens.
         top_p=0.95, #O modeloe scolhe apenas os tokens cuja soma das probabilidades atingemtop_p, nesse caso 95% de probabilidade cumulativa.
-        temperature=0.7 #Controla a aleatoriedade da resposta. <1 respostas consevadoras e previsíveis, 1 padrão e > 1 mais criativas, variadas e talevz incoerentes.
+        temperature=0.7 #Controla a aleatoriedade da resposta. Valores próximos de zero, respostas consevadoras e previsíveis, 0,7 xostuam ser um valor mais conservador, enquanto valores ainda mais próximos de 1 geram respostas vistas como "criativas", variadas e talevz incoerentes.
     )
     
     #bot_input_ids + attention_mask: fornece contexto ao modelo.
